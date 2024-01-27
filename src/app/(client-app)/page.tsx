@@ -9,7 +9,7 @@ export default function Home() {
       <WeHelpSection />
       <ProductSReadMore />
       <TestimonialsSection />
-      <BlogPosts />
+      <BlogPosts show_all={false} />
     </main>
   );
 }
